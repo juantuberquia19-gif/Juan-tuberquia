@@ -1,0 +1,65 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado principal */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Enlaces de navegación */
+nav a {
+    color: white;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+/* Botón principal */
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover del botón */
+.boton:hover {
+    background-color: #005f99;
+}
+
+/* Secciones principales */
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Tarjetas de proyectos */
+.project {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}

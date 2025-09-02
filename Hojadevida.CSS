@@ -1,0 +1,118 @@
+/* Reinicio de estilos básicos para todos los elementos */
+* {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0; 
+}
+
+/* Estilos generales del cuerpo */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  background-color: #f2f2f2; 
+  line-height: 1.6; 
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 40px auto; 
+  padding: 30px; 
+  background-color: white; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Encabezado principal */
+header {
+  text-align: center; 
+  margin-bottom: 30px; 
+}
+
+/* Estilo del nombre */
+header h1 {
+  color: red;
+  font-size: 2rem; 
+  margin-bottom: 10px; 
+}
+
+/* Subtítulo debajo del nombre */
+header p {
+  font-size: 1.1rem; 
+  color: #666; 
+}
+
+/* Foto de perfil */
+.foto-perfil img {
+  width: 140px; 
+  height: 140px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 4px solid #007acc; 
+  margin: 20px auto; 
+  display: block; 
+}
+
+/* Estilos para las secciones */
+section {
+  margin-bottom: 30px; 
+}
+
+/* Títulos de cada sección */
+h2 {
+  font-size: 1.4rem; 
+  color: red; 
+  margin-bottom: 10px; 
+  border-bottom: 2px solid #007acc; 
+  padding-bottom: 5px; 
+}
+
+/* Listas dentro de las secciones */
+ul {
+  list-style-type: disc; 
+  margin-left: 20px; 
+  margin-top: 10px; 
+}
+
+/* Elementos de lista */
+li {
+  margin-bottom: 5px; 
+}
+
+/* Párrafos generales */
+p {
+  margin-top: 10px; 
+}
+
+/* Diseño responsive para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 20px; 
+  }
+
+  header h1 {
+    font-size: 1.6rem; 
+  }
+
+  .foto-perfil img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Botón de portafolio */
+.boton {
+  display: inline-block; 
+  padding: 10px 20px; 
+  background-color: #007acc; 
+  color: white;
+  text-decoration: none; 
+  border: none;
+  border-radius: 8px; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease; 
+}
+
+/* Efecto hover en el botón */
+.boton:hover {
+  background-color: #005f99; 
+}
